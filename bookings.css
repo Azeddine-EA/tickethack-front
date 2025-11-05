@@ -30,3 +30,13 @@ main {
     display: flex;
     gap: 30px
 }
+
+.cart-footer {
+  background-color: #0b183b;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-radius: 0 0 10px 10px;
+}
