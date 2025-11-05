@@ -78,4 +78,16 @@ function allBtn(){
 }
 
 afficherPanier();
-document.querySelector("#TICKETHACK").textContent;
+// document.querySelector("#TICKETHACK").textContent;
+
+
+const btnPurchase = document.querySelector('#purchase')
+btnPurchase.addEventListener('click', function(){
+    fetch(`http://localhost:3000/bookings`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+            }).then(response=>response.json())
+            .then(bookingsData=>{
+              console.log('acheté !:' +bookingsData)
+            })
+})
