@@ -63,7 +63,7 @@ fetch(`http://localhost:3000/trips/${inputDeparture.value}/${inputArrival.value}
                             <p>${trip.price}$</p>
                         </div>
                         <div class="btnBook">
-                            <button id="${trip._id}"><a href ="./cart.html">Book</a></button>
+                            <button id="${trip._id}"><a href ="./panier.html">Book</a></button>
                         </div>
                     </div>
          

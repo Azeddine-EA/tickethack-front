@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon Panier</title>
+    <link rel="stylesheet" href="panier.css" />
+  </head>
+  <body>
+    <div id="bandeau">
+         <h1><a href ="./accueil.html">Tickethack</a></h1>
+         <div id="rubriques">
+          <span><a href ="./panier.html">Cart</a></span> <span><a href ="./bookings.html">Bookings</a></span>
+          </div>
+     </div>
+    <main>
+      <div class="cart-container">
+        <h2>My cart</h2>
+
+        <div id="cart-items" class="cart-item-list"></div>
+
+        <div class="cart-footer">
+          <p id="total">Total : 0€</p>
+          <button id="purchase"><a href="./bookings.html">Purchase</a></button>
+        </div>
+      </div>
+    </main>
+
+    <script src="panier.js"></script>
+  </body>
+</html>

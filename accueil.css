@@ -9,7 +9,7 @@ body{
    height: 1fr;
 }
 
-#bandeau h1 {
+#bandeau h1 a{
    text-align: left;
    color: #4eab91;
    margin: 25px;
@@ -211,5 +211,10 @@ display: none;
    width: 150px;
    padding-bottom: 20px;
    margin-bottom: 10px;
+}
+
+a {
+   text-decoration: none;
+   color: black;
 }
 
