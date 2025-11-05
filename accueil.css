@@ -1,0 +1,151 @@
+body{
+   margin: 0;
+   padding: 0;
+}
+
+#bandeau {
+   display: flex; 
+   justify-content: space-between;
+   height: 1fr;
+}
+
+#bandeau h1 {
+   text-align: left;
+   color: #4eab91;
+   margin: 25px;
+   font-size: 25px;
+   font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+   margin-top: 0;
+}
+
+#rubriques {
+   text-align: right;
+   display: flex;
+   justify-self: center;
+   align-items: center;
+   gap:30px;
+   margin: 25px;
+   font-weight: bold;
+   font-size: 15px;
+   font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+   font-size: 30px;
+   font-family: 'Montserrat', sans-serif;
+}
+
+#phrase {
+   font-size: 16px;
+   font-family: 'Montserrat', sans-serif;
+}
+
+#container {
+    background-image: url('images/background.jpg');
+    color: white;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+   justify-content: space-between;
+   display: block; 
+   padding-top: 30px;
+    }
+
+
+    #block {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top:50px;
+      gap:150px
+    }
+
+#formulaire-container {
+  height: 350px;
+  width: 20%;
+  border-radius: 10px;
+  background-color: #ffffff;
+  overflow: scroll;
+  color: black;
+  text-align: center;
+}
+
+#trajets-container {
+  height: 350px;
+  width: 20%;
+  border-radius: 10px;
+  background-color: #ffffff;
+  overflow: scroll;
+  color: black;
+  text-align: center;
+  
+}
+
+.affiche {
+   display:flex; 
+   justify-self: center;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   height: 100%;
+   width: 100%;
+}
+/* #affiche1{
+   gap:30px
+} */
+
+#btn-form {
+   background-color: #4eab91;
+   color: white;
+   border: none;
+   width: 250px;
+   height: 25px;
+   border-radius: 3px;
+  
+}
+
+#departure-form {
+   background-color: #f8f8f8;
+   color: white;
+   border: none;
+   width: 250px;
+   height: 25px;
+   border-radius: 3px;
+   border-bottom: 1px solid #d1d1d1;
+  
+}
+
+#arrival-form {
+   background-color: #f8f8f8;
+   color: white;
+   border: none;
+   width: 250px;
+   height: 25px;
+   border-radius: 3px;
+   margin-bottom: 30px;
+  
+}
+
+#date-form {
+   background-color: #f8f8f8;
+   color: grey;
+   border: none;
+   width: 250px;
+   height: 25px;
+   border-radius: 3px;
+   margin-bottom: 150px;
+  
+}
+
+#img-train {
+   border-bottom: 2px solid #4eab91;
+   width: 150px;
+   padding-bottom: 20px;
+   margin-bottom: 10px;
+}
+
