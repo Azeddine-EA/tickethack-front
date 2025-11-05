@@ -87,3 +87,36 @@ h2 {
   display: flex;
   gap: 30px;
 }
+
+
+/* ------------------------ header aissatou */
+#bandeau {
+   display: flex; 
+   justify-content: space-between;
+   height: 1fr;
+   background-color: #fff;
+}
+
+#bandeau h1 a{
+   text-align: left;
+   color: #4eab91;
+   margin: 25px;
+   font-size: 25px;
+   font-family: 'Montserrat', sans-serif;
+}
+a {
+   text-decoration: none;
+   color: black;
+}
+
+#rubriques {
+   text-align: right;
+   display: flex;
+   justify-self: center;
+   align-items: center;
+   gap:30px;
+   margin: 25px;
+   font-weight: bold;
+   font-size: 15px;
+   font-family: 'Montserrat', sans-serif;
+}

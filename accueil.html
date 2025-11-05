@@ -9,12 +9,12 @@
 </head>
 
 <body>
-     <script src="accueil.js"></script>
+     
 
      <div id="bandeau">
-         <h1>Tickethack</h1>
+         <h1><a href ="./accueil.html">Tickethack</a></h1>
          <div id="rubriques">
-          <span>Cart</span> <span>Bookings</span>
+          <span><a href ="./panier.html">Cart</a></span> <span><a href ="./bookings.html">Bookings</a></span>
           </div>
      </div>
 
@@ -26,16 +26,16 @@
 
           <div id="formulaire-container">
               <div class="affiche" id="affiche1">
-                  <input id="departure-form" type="text" name="Departure" value="" placeholder="Departure">
-                  <input id="arrival-form" type="text" name="Arrival" value="" placeholder="Arrival">
-                  <input id="date-form" type="date" name="" value="">
-                  <button id="btn-form" type="button">Search</button>
+                  <input id="departure-form" type="text" name="Departure"  placeholder="Departure"/>
+                  <input id="arrival-form" type="text" name="Arrival"  placeholder="Arrival"/>
+                  <input id="date-form" type="date" name="date" />
+                  <button id="btn-form" >Search</button>
                 </div>
             </div>
             
             
             <div id="trajets-container"> 
-                <div class="affiche">
+                <div id="afficheTrips">
                     <div id="rechercher" class="affiche">
                         <img id="img-train" src="images/train.png" />
                         
@@ -43,15 +43,27 @@
                     </div>
                 </div> 
                 
-                <!-- <div id="resulttrue" class="affiche">
-                    LINKER LES TRAJETS DISPONIBLES
-                    INSERER UN BOUTON 'BOOK' POUR CHAQUE TRAJET AFFICHE
+                <div id="trips" >
+                    <!-- <div class="trip">
+                        <div class="departure">
+                            paris > bruxelles
+                        </div>
+                        <div class="time">
+                            <p>22:09</p>
+                        </div>  
+                         <div class="price">
+                            <p>999$</p>
+                        </div>
+                        <div class="btnBook">
+                            <button>Book</button>
+                        </div>
+                    </div> -->
                 </div>
                 
                 <div id="resultfalse" class="affiche">
-                    <img src="images/notfound.png" />
+                    <img id="img-notfound" src="images/notfound.png" />
                     <p>No trip found.</p>
-                </div> -->
+                </div> 
                 
             </div>
         </div>
@@ -59,6 +71,6 @@
     </div>
    
    
-     
+     <script src="accueil.js"></script>
 </body>
 </html>
