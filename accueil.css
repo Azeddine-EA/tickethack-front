@@ -83,7 +83,8 @@ h2{
   overflow: scroll;
   color: black;
   text-align: center;
-  
+  display: flex;
+    justify-content: center;
   
 }
 
@@ -106,7 +107,7 @@ h2{
    color: white;
    border: none;
    width: 250px;
-   height: 25px;
+   height: 30px;
    border-radius: 3px;
   
 }
@@ -151,18 +152,13 @@ h2{
    margin-bottom: 10px;
 }
 
-#resulttrue {
-   width: 95%;
-   display: flex;
-   flex-direction: column;
-   gap: 10px;
-   background-color: #4eab91;
-    border: none;
-   border-radius: 3px;  
+#resultfalse {
+display: none;
 }
+
 #trips{
-   /* width: 100%; */
-   display: flex;
+   width: 100%;
+   display: none;
    flex-direction: column;
    gap: 10px;
    padding: 10px;
@@ -207,5 +203,13 @@ h2{
 
 .price {
    font-weight: bold;
+}
+
+
+#img-notfound {
+   border-bottom: 2px solid #4eab91;
+   width: 150px;
+   padding-bottom: 20px;
+   margin-bottom: 10px;
 }
 
