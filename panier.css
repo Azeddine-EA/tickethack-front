@@ -7,12 +7,22 @@ body {
 
 header {
   display: flex;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica;
   justify-content: space-between;
   align-items: center;
   padding: 1px 40px;
   background-color: white;
 }
+header a {
+  text-decoration: none; /* Supprime le soulignement */
+  color: black; /* Garde la couleur du texte */
+  font-weight: 500; /* Légèrement plus visible */
+}
+
+header a:hover {
+  color: #3ca77a; /* Change la couleur au survol (optionnel) */
+}
+
 
 main {
   display: flex;

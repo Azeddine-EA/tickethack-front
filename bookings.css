@@ -6,11 +6,20 @@ body {
 }
 header {
   display: flex;
+  font-family: Arial, Helvetica;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 40px;
+  padding: 1px 40px;
   background-color: white;
-  border-bottom: 1px solid #ddd;
+}
+header a {
+  text-decoration: none; /* Supprime le soulignement */
+  color: black; /* Garde la couleur du texte */
+  font-weight: 500; /* Légèrement plus visible */
+}
+
+header a:hover {
+  color: #3ca77a; /* Change la couleur au survol (optionnel) */
 }
 main {
   display: flex;
@@ -40,3 +49,5 @@ main {
   padding: 15px;
   border-radius: 0 0 10px 10px;
 }
+
+
